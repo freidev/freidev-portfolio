@@ -1,5 +1,4 @@
 import freidev from "../assets/images/freidev.png";
-import "atropos/css";
 import { motion } from "framer-motion";
 export default function Home() {
   return (
@@ -56,9 +55,6 @@ export default function Home() {
             cursor: "pointer",
             transition: { duration: 0.2, ease: "easeInOut", type: "spring" },
           }}
-          // animate={{ opacity: 1, scale: 1.08, top: -20 }}
-          // initial={{ opacity: 0, scale: 0.5 }}
-          // transition={{ delay: 0.5 }}
         />
       </motion.div>
     </section>
