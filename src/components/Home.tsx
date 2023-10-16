@@ -2,8 +2,8 @@ import freidev from "../assets/images/freidev.png";
 import { motion } from "framer-motion";
 export default function Home() {
   return (
-    <section className="grid grid-cols-2 gap-20 items-center home-section">
-      <div className="ps-5">
+    <section className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-20 items-center home-section mt-5 md:mt-0">
+      <div>
         <motion.h3
           className="text-2xl"
           animate={{ opacity: 1, scale: 1 }}

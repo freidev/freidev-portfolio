@@ -10,3 +10,12 @@ body{
 .home-section{
   height: calc(100vh - 72px - 2rem);
 }
+
+.underline {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: var(--accent);
+}
