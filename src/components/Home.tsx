@@ -25,11 +25,10 @@ export default function Home() {
           initial={{ opacity: 0, scale: 0 }}
           transition={{ delay: 0.7 }}
         >
-          I'm a motion.passionate FrontEnd developer specialized in web and
-          mobile development. The world of coding not only fuels my technical
-          curiosity but fills my day with joy and excitement. I'm always eager
-          to delve into the code and create engaging, user-friendly digital
-          environments.
+          I'm a passionate FrontEnd developer specialized in web and mobile
+          development. The world of coding not only fuels my technical curiosity
+          but fills my day with joy and excitement. I'm always eager to delve
+          into the code and create engaging, user-friendly digital environments.
         </motion.p>
       </div>
       <motion.div
