@@ -14,7 +14,6 @@ This project serves as my personal portfolio, built using React and TypeScript. 
 - React
 - TypeScript
 - Framer Motion (for smooth animations)
-- SCSS
 
 ## Installation and Usage
 
