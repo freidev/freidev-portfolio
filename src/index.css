@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #131516;
+  color: #fff;
+}
+
+.home-section{
+  height: calc(100vh - 72px - 2rem);
+}
