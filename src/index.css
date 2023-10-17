@@ -2,12 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-  background-color: #131516;
-  color: #fff;
+@font-face {
+  font-family: "Chillax Semibold";
+  src: url("./assets/fonts/chillax-semibold.woff2") format("woff2");
 }
 
-.home-section{
+body {
+  background-color: #131516;
+  color: #fff;
+  font-family: "Chillax Semibold";
+}
+
+.home-section {
   height: calc(100vh - 72px - 2rem);
 }
 
@@ -18,4 +24,8 @@ body{
   right: 0;
   height: 1px;
   background: var(--accent);
+}
+
+.container {
+  max-width: 1200px;
 }
